@@ -727,7 +727,7 @@ header a:hover::after{
     }
 
     .work .card{
-        background: url("./Screenshot cyberfiction.png") no-repeat;
+        background: url("./Screenshotcyberfiction.png") no-repeat;
         background-size: cover;
         max-width: 600px;
         margin-left: 20px;
