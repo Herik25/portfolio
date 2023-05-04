@@ -727,7 +727,7 @@ header a:hover::after{
     }
 
     .work .card{
-        background: url("./Screenshot\ cyberfiction.png") no-repeat;
+        background: url("./Screenshot cyberfiction.png") no-repeat;
         background-size: cover;
         max-width: 600px;
         margin-left: 20px;
@@ -759,20 +759,20 @@ header a:hover::after{
     #card2{
         top: -580px;
         left: 48%;
-        background-image: url('./Screenshot\ imdb.png');
+        background-image: url('./Screenshot imdb.png');
         color: #fff;
     }
 
     #card3{
         top: 50px;
-        background-image: url('./Screenshot\ todolist.png');
+        background-image: url('./Screenshot todolist.png');
         color: #333;
     }
 
     #card4{
         top: -530px;
         left: 48%;
-        background-image: url('./Screenshot\ psgenerator.png');
+        background-image: url('./Screenshot psgenerator.png');
         color: #fff;
     }
 
