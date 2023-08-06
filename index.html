@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@100&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>My_Portfolio_</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="right-layer" id="layer"></div>
+        <div class="right-layer right-layer--2"></div>
+        <div class="right-layer right-layer--3"></div>
+        <div class="right-layer right-layer--4"></div>
+        <div class="right-layer right-layer--5"></div>
+        <section class="home night" id="home">
+            <header>
+                <a href="#" class="logo animation-slideRight"><span>My</span>Portfolio_</a>
+                <ul>
+                    <li><a href="#home" id="home">Home</a></li>
+                    <li><a href="#about" id="about" class="pagelink">About</a></li>
+                    <li><a href="#work" id="work">Work</a></li>
+                    <li><a href="#contact" id="contact">Contact</a></li>
+                    <div class="dark">
+                        <label class="switch">
+                            <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <g fill="#ffd43b">
+                                        <circle r="5" cy="12" cx="12"></circle>
+                                        <path
+                                            d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z">
+                                        </path>
+                                    </g>
+                                </svg></span>
+                            <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path
+                                        d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
+                                    </path>
+                                </svg></span>
+                            <input type="checkbox" id="check" onclick="night()" class="input" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </ul>
+            </header>
+
+            <div class="content">
+                <h3 class="animation-slideRight" style="animation-delay: 0.5s;">Hey_</h3>
+                <h2 class="animation-slideLeft" style="animation-delay: 0.5s;">I am <span id="text"></span></h2>
+                <p class="animation-slideLeft" style="animation-delay: 0.8s;">“Hello! I'm a skilled frontend developer
+                    with a passion for creating beautiful and intuitive user interfaces. I’m dedicated to delivering
+                    high-quality and responsive web designs that provide an exceptional user experience. Take a look at
+                    my portfolio to see some of the projects I've Created and feel free to get in touch if you have any
+                    questions or would like to discuss a potential project.”</p>
+                <button class="hire" onclick="hire()">Hire Me</button>
+                <button class="chat" id="chat">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                    Let's Chat</button>
+            </div>
+            <img src="./portfoliio_bg.png" alt="bgimage" class="colors" />
+            <img src="./men.png" alt="jungkook anime" class="men">
+            <ul class="sci">
+                <li><a href="https://www.linkedin.com/in/harsh-parmar-5a7361221" target="_blank"
+                        class="linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/Herik25" target="_blank" class="github"><ion-icon
+                            name="logo-github"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/darksoul_5052/" target="_blank" class="instagram"><ion-icon
+                            name="logo-instagram"></ion-icon></a></li>
+                <li><a href="mailto:harshparmar87990@gmail.com" target="_blank" class="mail"><ion-icon
+                            name="mail-outline" class="icon6"></ion-icon></a></li>
+            </ul>
+        </section>
+        <div class="loader" id="about"></div>
+
+        <section class="about night" style="height:fit-content">
+            <div class="about-container">
+                <div class="content">
+                    <div class="line"></div>
+                    <div class="title">
+                        About/>
+                    </div>
+                    <div class="screen">
+                        <div data-line="01" class="code">
+                            <span class="methods">class</span>
+                            <span class="props">Harsh Parmar</span> {
+                        </div>
+                        <div data-line="02" class="code">
+                            <div class="dot">..</div><span class="comment">// I'm ambitious and I love new challanges
+                                :)</span>
+                        </div>
+                        <div data-line="03" class="code">
+                            <div class="dot">..</div><span class="comment">// I'm active learner and my skills are
+                                continuously expanding</span>
+                        </div>
+                        <div data-line="04" class="code">
+                            <div class="dot">..</div><span class="methods">constructor</span>() {
+                        </div>
+                        <div data-line="05" class="code">
+                            <div class="dot">....</div><span class="scope">this</span>.<span class="prop2">name</span>
+                            <span class="scope">=</span>
+                            <span class="string">'Harsh Parmar'</span>
+                        </div>
+                        <div data-line="06" class="code">
+                            <div class="dot">....</div><span class="scope">this</span>.<div class="prop2">
+                                dayOfBirthTimeStamp</div>
+                            <span class="scope">=</span>
+                            <span class="number">1085595600</span>
+                        </div>
+                        <div data-line="07" class="code">
+                            <span class="dot">....</span><span class="scope">this</span>.<div class="prop2">email</div>
+                            <span class="scope">=</span>
+                            <span class="string">'harshparmar87990@gmail.com'</span>
+                        </div>
+                        <div data-line="08" class="code">
+                            <span class="dot">..</span>}
+                        </div>
+                        <div data-line="09" class="code">
+                            <span class="dot">..</span><span class="props">Experience</span><span>() {</span>
+                        </div>
+                        <div data-line="10" class="code">
+                            <span class="dot">....</span><span class="methods">return</span>
+                            <span>0</span>
+                        </div>
+                        <div data-line="11" class="code">
+                            <span class="dot">..</span><span>}</span>
+                        </div>
+                        <div data-line="12" class="code">
+                            <span class="dot">..</span><span class="props">education</span>() {
+                        </div>
+                        <div data-line="13" class="code">
+                            <span class="dot">....</span><span class="methods">return</span> [
+                        </div>
+                        <div data-line="14" class="code">
+                            <span class="dot">......</span><span>{</span> <span class="string">'2021 - 2023'</span>
+                            <span>:</span> <span class="string">'BCA at Saurashtran University - Rajkot'</span> }
+                        </div>
+                        <div data-line="15" class="code">
+                            <span class="dot">......</span>{ <span class="string">'courses'</span> <span>:</span> <span
+                                class="string">'Many skill aquire from Udemy, Coursera, Skillshare and
+                                GreatLearning'</span> }
+                        </div>
+                        <div data-line="16" class="code">
+                            <span class="dot">....</span><span>]</span>
+                        </div>
+                        <div data-line="17" class="code">
+                            <span class="dot">..</span><span>}</span>
+                        </div>
+                        <div data-line="18" class="code">
+                            <span class="dot">..</span><span class="props">skills() {</span>
+                        </div>
+                        <div data-line="19" class="code">
+                            <span class="dot">....</span><span class="methods">return</span> [ <span
+                                class="string">'HTML/CSS/JS'</span> , <span class="string">'ReactJs'</span> , <span
+                                class="string">'NodeJs'</span> , <span class="string">'ExpressJs'</span> , <span
+                                class="string">'NextJs'</span> , <span class="string">'VueJs'</span> , <span
+                                class="string">'Github'</span> , <span class="string">'MongoDb'</span> , <span
+                                class="string">'MySQL'</span> , <span class="string">'MERN_stack'</span> , <span
+                                class="string">'TailwindCSS'</span> , <span class="string">'WordPress'</span> , <span
+                                class="string">'PHP'</span> , <span class="string">'C#'</span> , <span
+                                class="string">'C++'</span> , <span class="string">'npm'</span> , <span
+                                class="string">'blender'</span> , <span class="string">'UX/UI'</span> , <span
+                                class="cursor"></span> ]
+                        </div>
+                        <div data-line="20" class="code">
+                            <span class="dot">..</span><span>}</span>
+                        </div>
+                        <div data-line="21" class="code">
+                            <span>}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work night" style="height: fit-content;">
+            <div class="work-container">
+                <div class="content">
+                    <div class="line"></div>
+                    <div class="line2"></div>
+                    <div class="container">
+                        <div class="card" id="card">
+                            <div class="text">
+                                <h2>Clone of Cyberfiction*</h2>
+                                <p>A cool canvas effect with the use of locomotion</p>
+                                <button onclick="">View</button>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="card" id="card3">
+                                <div class="text">
+                                    <h2>To Do List</h2>
+                                    <p>A simple program to show you my basic knowledge</p>
+                                    <button onclick="">View</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="card" id="card2">
+                                <div class="text">
+                                    <h2>Clone of IMDB</h2>
+                                    <p>Use of api to show you my skills with database</p>
+                                    <button onclick="">View</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="card" id="card4">
+                                <div class="text">
+                                    <h2>Password Generator</h2>
+                                    <p>A basic program with a little complex array logic</p>
+                                    <button onclick="">View</button>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+
+        <section class="contact night" style="height: fit-content;">
+            <div class="contact-container">
+                <div class="content">
+                    <h1>Let's Connect!</h1>
+                    <p>I’d love to hear from you; whether you want to learn more about my services, want to collaborate
+                        on a project, or simply just want to say hello.</p>
+                    <p>You can fill out the form on the left or get in touch with me at <a
+                            href="#">harshparmar87990@gmail.com</a></p>
+                </div>
+                <div class="form">
+                    <form action="#">
+                        <input type="text" id="name" required="">
+                        <label>
+                            <span style="transition-delay: 50ms;">Y</span>
+                            <span style="transition-delay: 100ms;">o</span>
+                            <span style="transition-delay: 150ms;">u</span>
+                            <span style="transition-delay: 200ms;">r</span>
+                            <span style="transition-delay: 250ms;"> </span>
+                            <span style="transition-delay: 300ms;">N</span>
+                            <span style="transition-delay: 350ms;">a</span>
+                            <span style="transition-delay: 400ms;">m</span>
+                            <span style="transition-delay: 450ms;">e</span>
+                        </label>
+                        <input type="email" id="email" required="">
+                        <label class="label2">
+                            <span style="transition-delay: 050ms;">Y</span>
+                            <span style="transition-delay: 100ms;">o</span>
+                            <span style="transition-delay: 200ms;">u</span>
+                            <span style="transition-delay: 250ms;">r</span>
+                            <span style="transition-delay: 300ms;"></span>
+                            <span style="transition-delay: 350ms;">E</span>
+                            <span style="transition-delay: 400ms;">m</span>
+                            <span style="transition-delay: 450ms;">a</span>
+                            <span style="transition-delay: 500ms;">i</span>
+                            <span style="transition-delay: 550ms;">l</span>
+                        </label>
+                        <textarea id="txt" cols="60" rows="7"></textarea>
+                        <label class="label3">
+                            <span style="transition-delay: 050ms;">Y</span>
+                            <span style="transition-delay: 100ms;">o</span>
+                            <span style="transition-delay: 150ms;">u</span>
+                            <span style="transition-delay: 200ms;">r</span>
+                            <span style="transition-delay: 250ms;"></span>
+                            <span style="transition-delay: 300ms;">M</span>
+                            <span style="transition-delay: 350ms;">e</span>
+                            <span style="transition-delay: 400ms;">s</span>
+                            <span style="transition-delay: 450ms;">s</span>
+                            <span style="transition-delay: 500ms;">a</span>
+                            <span style="transition-delay: 550ms;">g</span>
+                            <span style="transition-delay: 600ms;">e</span>
+                        </label>
+                        <button value="submit" class="btnBox">Connect With Me</button>
+                    </form>
+                </div>
+            </div>
+            <section class="footer night">
+                <div class="title">
+                    Find me on:
+                </div>
+                <div class="line"></div>
+                <div class="list">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/harsh-parmar-5a7361221/" target="_blank"><ion-icon
+                                    name="logo-linkedin" class="icon1"></ion-icon></a></li>
+                        <li><a href="https://github.com/Herik25" target="_blank"><ion-icon name="logo-github"
+                                    class="icon2"></ion-icon></a></li>
+                        <li><a href="https://codepen.io/Herik25" target="_blank"><ion-icon name="logo-codepen"
+                                    class="icon3"></ion-icon></a></li>
+                        <li><a href="https://discord.gg/7YMZtKWZ" target="_blank"><ion-icon name="logo-discord"
+                                    class="icon4"></ion-icon></a></li>
+                        <li><a href="https://www.instagram.com/darksoul_5052/" target="_blank"><ion-icon
+                                    name="logo-instagram" class="icon5"></ion-icon></a></li>
+                        <li><a href="mailto:harshparmar87990@gmail.com?subject=Mail from My Site"
+                                target="_blank"><ion-icon name="mail-outline" class="icon6"></ion-icon></a></li>
+                        <li><a href="#" target="_blank"><ion-icon name="logo-whatsapp" class="icon7"></ion-icon></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="mo">
+                    <ion-icon name="call-outline" class="call"></ion-icon>
+                    <span>+91 8799026***</span>
+                </div>
+                <div class="line"></div>
+                <div class="thanks">
+                    <span>Thank You for your Time!</span>
+                </div>
+                <div class="credit">
+                    <h1> &copy; Made by Harsh Parmar in 2023</h1>
+                </div>
+            </section>
+        </section>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
