@@ -821,26 +821,6 @@ header a:hover::after {
     transition: 0.3s;
 }
 
-#card2 {
-    top: -580px;
-    left: 48%;
-    background-image: url('./ScreenshotImdb.png');
-    color: #fff;
-}
-
-#card3 {
-    top: 50px;
-    background-image: url('./ScreenshotTodolist.png');
-    color: #333;
-}
-
-#card4 {
-    top: -530px;
-    left: 48%;
-    background-image: url('./ScreenshotPsgenerator.png');
-    color: #fff;
-}
-
 /* contact */
 
 .contact {
@@ -1213,5 +1193,199 @@ textarea label span {
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@media screen and (min-width: 767px) {
+    #card2 {
+        top: -580px;
+        left: 48%;
+        background-image: url('./ScreenshotImdb.png');
+        color: #fff;
+    }
+    
+    #card3 {
+        top: 50px;
+        background-image: url('./ScreenshotTodolist.png');
+        color: #333;
+    }
+    
+    #card4 {
+        top: -530px;
+        left: 48%;
+        background-image: url('./ScreenshotPsgenerator.png');
+        color: #fff;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow: auto;
+        width: fit-content;
+    }
+
+    .home {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        font-size: 1.5em;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .right-layer {
+        display: none;
+    }
+
+    .content {
+        min-width: auto;
+        margin: 10px;
+    }
+
+    .content h3 {
+        font-size: 1.5em;
+    }
+
+    .content #i_am {
+        font-size: 2.5em;
+    }
+
+    .contact #hey {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1em;
+        max-width: 100%;
+    }
+
+    #description {
+        font-size: 1rem;
+        margin-right: 50px;
+        max-width: 450px;
+    }
+
+    .content button {
+        font-size: 1em;
+        padding: 10px 25px;
+    }
+
+    .sci {
+        bottom: 10px;
+    }
+
+    .footer .mo {
+        font-size: 18px;
+    }
+
+    .footer ul li a {
+        font-size: 20px;
+    }
+
+    .footer .credit {
+        font-size: 8px;
+    }
+
+    #text {
+        font-size: 2.5rem;
+    }
+
+    button.hire {
+        display: block;
+    }
+
+    #chat {
+        margin: 0;
+        padding: 10px 10px;
+    }
+
+    #bg_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+        opacity: 0.7;
+    }
+
+    #men {
+        right: 0;
+        height: 300px;
+        width: 250px;
+    }
+
+    .about-container .content {
+        margin-inline: 20px;
+    }
+
+    .about-container div {
+        font-size: 11px;
+        margin-inline: 10px;
+    }
+
+    .content > .title{
+        margin-inline: 10px;
+    }
+
+    .about .line {
+        left: 0;
+    }
+
+    .work .line{
+        left: 0;
+        height: 860px;
+    }
+
+    #about{
+        margin-inline: 20px;
+    }
+
+    .work-container .content{
+        display: block;
+        margin: 0;
+    }
+
+    .work .card {
+        max-width: 100%; /* Make the card take the full width of the screen */
+        margin: 20px 20px; /* Remove left margin and add horizontal margin */
+        height: auto; /* Allow the card to adjust its height based on content */
+        min-height: 150px;
+    }
+
+    #card2{
+        background-image: url('./ScreenshotImdb.png');
+    }
+    
+    #card3 {
+        background-image: url('./ScreenshotTodolist.png');
+    }
+    
+    #card4{
+        background-image: url('./ScreenshotPsgenerator.png');
+    }
+
+    .card h2{
+        font-size: 25px;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+    .card button{
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
     }
 }
