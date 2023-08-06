@@ -1426,7 +1426,7 @@ textarea label span {
     .contact .form {
         overflow: hidden;
         width: 90%;
-        height: 78%;
+        /* height: 78%; */
         padding-inline: 20px;
         margin-inline: 10px;
         margin-bottom: 50px;
