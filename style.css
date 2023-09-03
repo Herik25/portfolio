@@ -778,8 +778,9 @@ header a:hover::after {
     margin-bottom: 5px;
 }
 
-.work button {
+.work a {
     background: #e85757;
+    text-align: center;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -789,17 +790,18 @@ header a:hover::after {
     padding: 16px;
     width: 120px;
     color: #fff;
+    text-decoration: none;
 }
 
 .work .card {
-    background: url("./ScreenshotCyberfiction.png") no-repeat;
+    background: url("./dice-game.png") no-repeat;
     background-size: cover;
     max-width: 600px;
     margin-left: 20px;
     height: 290px;
     padding: 40px;
     position: relative;
-    color: #333;
+    color: #cac7c7;
     transition: transform 0.1s ease;
     transform-style: preserve-3d;
     will-change: transform;
@@ -1200,21 +1202,21 @@ textarea label span {
     #card2 {
         top: -580px;
         left: 48%;
-        background-image: url('./ScreenshotImdb.png');
+        background-image: url('./RMS.png');
         color: #fff;
     }
     
     #card3 {
         top: 50px;
-        background-image: url('./ScreenshotTodolist.png');
+        background-image: url('./notes.png');
         color: #333;
     }
     
     #card4 {
         top: -530px;
         left: 48%;
-        background-image: url('./ScreenshotPsgenerator.png');
-        color: #fff;
+        background-image: url('./quiz.png');
+        color: #333;
     }
     
 }
