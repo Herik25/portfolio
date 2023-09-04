@@ -1366,15 +1366,15 @@ textarea label span {
     }
 
     #card2{
-        background-image: url('./ScreenshotImdb.png');
+        background-image: url('./RMS.png');
     }
     
     #card3 {
-        background-image: url('./ScreenshotTodolist.png');
+        background-image: url('./notes.png');
     }
     
     #card4{
-        background-image: url('./ScreenshotPsgenerator.png');
+        background-image: url('./quiz.png');
     }
 
     .card h2{
